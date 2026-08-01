@@ -1,0 +1,14 @@
+{
+  "name": "legal-text",
+  "description": "A dataset of legal language for describing or requiring deliberative processes.",
+  "type": "module",
+  "private": true,
+  "license": "CC0-1.0",
+  "scripts": {
+    "test": "node validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AI-Democracy-Foundation/legal-text.git"
+  }
+}

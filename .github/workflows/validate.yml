@@ -1,0 +1,19 @@
+name: Validate dataset
+
+on:
+  pull_request:
+    paths:
+      - "data/legal_text.json"
+      - "validate.js"
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node validate.js
