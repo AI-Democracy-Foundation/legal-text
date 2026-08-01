@@ -22,16 +22,11 @@ The file is a JSON array with **one record per line**. Please keep it that way:
 it is what makes pull request diffs readable. Records are unsorted; append new
 ones at the end.
 
-A GitHub Action validates every pull request. It checks that the file parses,
-that required fields are present and correctly typed, and that the one-record-
-per-line formatting holds. You can run the same check locally:
-
-```sh
-node validate.js
-```
-
 Every claim should be supported by the `links` field, ideally pointing at the
 primary legal source rather than reporting about it.
+
+Don't worry about getting the formatting exactly right — we will tidy anything
+up before merging.
 
 Contributions are accepted on the terms in [Rights and reuse](#rights-and-reuse)
 below.
