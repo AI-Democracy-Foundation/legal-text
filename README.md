@@ -1,5 +1,3 @@
-# A dataset of deliberation clauses in legal text
-
 This repo contains a dataset of real-world examples of clauses used to describe or require deliberative processes. The dataset is documented at [ai-democracy.org/a-dataset-of-deliberation-clauses-in-legal-text/](https://ai-democracy.org/a-dataset-of-deliberation-clauses-in-legal-text/).
 
 ## Contributing
